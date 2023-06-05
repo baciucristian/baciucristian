@@ -6,7 +6,7 @@
 const whoAmI = {
     fullName: 'Cristian Baciu',
     country: getCountry(),
-    hobbies: ['Music', 'Gaming', 'Movies'],
+    hobbies: ['Swimming', 'Gaming', 'Movies'],
 };
 
 function getCountry() {
@@ -33,9 +33,10 @@ function getCountry() {
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?logo=bootstrap&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?logo=jquery&logoColor=white)
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?logo=jest&logoColor=white)
-![cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?logo=cypress&logoColor=058a5e)
+![Playwright](https://img.shields.io/badge/-playwright-%23E5E5E5?logo=playwright&logoColor=058a5e)
 
 ## Operating Systems
 
