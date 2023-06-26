@@ -1,15 +1,19 @@
-[![@baciucristian's Holopin board](https://holopin.me/baciucristian)](https://holopin.io/@baciucristian)
-
 # Who am I?
 
-```javascript
-const whoAmI = {
-    fullName: 'Cristian Baciu',
-    country: getCountry(),
-    hobbies: ['Swimming', 'Gaming', 'Movies'],
+```typescript
+type Person = {
+    fullName: string;
+    country: string;
+    hobbies: string[];
 };
 
-function getCountry() {
+const whoAmI: Person = {
+    fullName: 'Cristian Baciu',
+    country: getCountry(),
+    hobbies: ['Swimming', 'Running', 'Movies'],
+};
+
+function getCountry(): string {
     return 'Moldova';
 }
 ```
